@@ -5,7 +5,7 @@ from pytube import Playlist
 
 print('input a playlist link')
 E = True
-while(E == True):
+while(E == True):#input loop
     try:
         p1 = Playlist(input())
         E = False
@@ -14,7 +14,7 @@ while(E == True):
 
 print("input a second playlist link")
 E = True
-while(E == True):
+while(E == True):#second input loop
     try:
         p2 = Playlist(input())
         E = False
